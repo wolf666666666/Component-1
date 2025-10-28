@@ -12,11 +12,6 @@ public class PlayerMovement : MonoBehaviour
     public float jumpForce = 5f;
     public bool isGrounded;
     
-    void Start()
-    {
-        
-    }
-
     void Update()
     {
         Movement();
